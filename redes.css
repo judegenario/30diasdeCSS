@@ -1,0 +1,53 @@
+
+*{
+    padding: 0px;
+    padding: 0px;
+}
+
+/*ajuste da posição dos ícones na tela*/
+section{
+    margin: 100px auto;
+    width: 1025px;
+    height: 150px;
+}
+
+.icon{  /*estilizando o ícone das redes sociais*/
+    width: 150px;
+    height: 150px;
+
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+}
+
+/*ação do ícone*/
+.icon:hover{
+    cursor: pointer;    /*quando o mouse passar*/
+    transform: translateY(-20px);   /*translade no eixo Y*/
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);/*Efeito de sombra*/
+}
+
+/*inserindo a cor de fundo de cada rede social*/
+
+#facebook{
+    background-color: #2372A3;
+}
+
+#twitter{
+    background-color: #0084B4;
+}
+
+#instagram{
+    background-color: #C32AA3;
+}
+
+#youtube{
+    background-color: #B00;
+}
+
+.icon-image{    /*posicionando as imagens de cada icone*/
+    margin: 0px auto;
+    padding: 35px;
+    width: 80px;
+}
