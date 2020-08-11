@@ -1,0 +1,74 @@
+/*Definições padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cor da página*/
+body{
+    background-color: #f9f9f9;
+}
+
+/*posição da caixa*/
+#check{
+    display: none;
+}
+
+/*configurações do ícone do menu*/
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;/*responsável pelo cálculo e posicionamento da profundidade*/
+}
+
+.barra{
+    background-color:#333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+}
+
+/*Estilização da nav, a parte de dentro do menu*/
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+/*Estilização de cada link da nav*/
+nav a{
+    text-decoration: none;
+}
+
+.link{
+    background-color: #494950;
+    padding: 20px;
+    font-family: 'Arial';
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+/*Mudança de cor ao passar o mouse*/
+.link:hover{
+    background-color: #8A2BE2;
+}
+
+/*  Animações
+    Quando marcada, a checkbox aciona o evento e faz uma translação na div barra*/
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+
+/*Quando marcada, aciona um evento nos links da nav*/
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+}
