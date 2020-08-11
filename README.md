@@ -7,3 +7,7 @@
 ## DIA 2 - Menu Lateral Retrátil
 
 <a href = "https://j.gifs.com/xn44ol.gif"><img src="https://j.gifs.com/xn44ol.gif"></a>
+
+## DIA 3 - Efeito Luminoso Neon com Keyframes
+
+<a href = "https://j.gifs.com/mO45n3.gif"><img src="https://j.gifs.com/mO45n3.gif"></a>
