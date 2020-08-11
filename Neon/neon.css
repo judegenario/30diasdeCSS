@@ -1,1 +1,44 @@
+/*Definições padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Cor de fundo da página*/
+body{
+    background-color: #000;
+}
+
+section{
+    width: 600px;
+    margin: 150px auto;
+    color: #3f3;
+    animation-duration: 5s;
+    animation-name: muda_cor;
+    animation-iteration-count: infinite;/*Infinite é para a animação seguir infinitamente*/
+}
+
+/*Estilização do parágrafo*/
+p{
+font-size: 100px;
+text-align: center;
+font-family: "Archivo";
+animation-duration: 2s;
+animation-name: desfoque;
+animation-iteration-count: infinite;/*Infinite é para a animação seguir infinitamente*/
+}
+/*Keyframes são pontos chaves, 
+Cada keyframe descreve como o elemento 
+animado deve se comportar a um tempo dado 
+durante a sequência de animação.*/
+@keyframes muda_cor{
+    0,100%{color: #0ff}/*entre 0 e 100%, essa cor*/
+    25%{color: #f0f}/*quando chegar em 25%, muda de cor*/
+    50%{color:#06f}
+    75%{color: #fff}
+}
+
+@keyframes desfoque{
+    50%{ text-shadow: 0px 0px 9px}
+}
 
