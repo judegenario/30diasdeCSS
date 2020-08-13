@@ -1,0 +1,54 @@
+.container{
+    padding: 30px;
+    position: relative;
+    width: 250px;
+    height: 320px;
+}
+
+/*Estilização da carta*/
+.card{
+    position: absolute;
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+
+/*rotação ao passar o mouse*/
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+/*estilização do lado da frente*/
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /*A propriedade CSS backface-visibility determina se deve ser exibido ou não a parte de trás do elemento para o usuário*/
+    background: #ffc728;
+    color: #333;
+    text-align: center;
+    font-family: Archivo;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*estilização do lado de trás*/
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: purple;
+    color: #fff;
+    text-align: center;
+    font-family: Archivo;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transform: rotateY(180deg);
+}
+
