@@ -1,0 +1,23 @@
+/*Estilizando a página*/
+body{
+    background: #dff9fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Estilizando o spinner*/
+.spinner{
+    border: 8px solid rgba(0, 0, 0, 1);
+    border-left-color: #22a6b3;/*colocando a cor de umlado só pra dar o efeito de carregamento*/
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;/*animando o spinner*/
+}
+
+/*Keyframes define as etapas da animação*/
+@keyframes spin{
+    to{ transform: rotate(368deg); }
+}
