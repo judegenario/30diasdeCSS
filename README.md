@@ -11,3 +11,9 @@
 ## DIA 3 - Efeito Luminoso Neon com Keyframes
 
 <a href = "https://j.gifs.com/mO45n3.gif"><img src="https://j.gifs.com/mO45n3.gif"></a>
+
+## DIA 4 - Spinner Loader
+
+<a href = "https://j.gifs.com/91M41P.gif"><img src="https://j.gifs.com/91M41P.gif"></a>
+
+
