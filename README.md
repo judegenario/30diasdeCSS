@@ -20,6 +20,12 @@
 
 <a href = "https://j.gifs.com/5QGO78.gif"><img src="https://j.gifs.com/5QGO78.gif"></a>
 
+## DIA 6 - Grid com CSS
+
+![griddegatinhos](https://user-images.githubusercontent.com/53568231/90278398-cce2ac00-de3d-11ea-90dd-44184bfe8f97.png)
+
+
+
 
 
 
