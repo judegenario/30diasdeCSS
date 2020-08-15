@@ -24,7 +24,7 @@
 
 ![griddegatinhos](https://user-images.githubusercontent.com/53568231/90278398-cce2ac00-de3d-11ea-90dd-44184bfe8f97.png)
 
-## DIA 5 - Coração Batendo com Keyframes
+## DIA 7 - Coração Batendo com Keyframes
 
 <a href = "https://j.gifs.com/NLAVxp.gif"><img src="https://j.gifs.com/NLAVxp.gif"></a>
 
