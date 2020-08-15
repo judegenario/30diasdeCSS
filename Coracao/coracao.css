@@ -1,1 +1,46 @@
 
+.coracao {
+    position: relative;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    transform: rotate(-45deg);
+    animation-name: pulsar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/*definindo o formato do coração*/
+.coracao:before,
+.coracao:after{
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.coracao:before{
+    right: -100px;
+}
+
+.coracao:after{
+    top: -100px;
+}
+
+/*etapas da animação*/
+@keyframes pulsar{
+    from{
+        transform: scale3d(1, 1, 1) rotate(-45deg);
+    }
+
+    50%{
+        transform: scale3d(1.10, 1.10, 1.10) rotate(-45deg);;
+    }
+
+    to{
+        transform: scale3d(1, 1, 1) rotate(-45deg);
+    }
+}
