@@ -1,1 +1,28 @@
+body{
+    font-family: Archivo;
+}
 
+article{
+    margin: 50px;
+    text-align: center;
+}
+
+article a{
+    padding: 15px 40px;
+    border: 3px solid 	#EE82EE;
+    text-decoration: none;
+    color:	#EE82EE;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+article a:hover{
+    color: #FFF;
+    background: 	#EE82EE;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 3px 25px #BBB;
+    border: 	#EE82EE;
+    border-bottom: 4px solid #DA70D6;
+}
