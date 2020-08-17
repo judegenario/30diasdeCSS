@@ -19,10 +19,10 @@ article a{
 
 article a:hover{
     color: #FFF;
-    background: 	#EE82EE;
+    background: #EE82EE;
     font-weight: bold;
     font-size: 18px;
     box-shadow: 0 3px 25px #BBB;
-    border: 	#EE82EE;
+    border: #EE82EE;
     border-bottom: 4px solid #DA70D6;
 }
