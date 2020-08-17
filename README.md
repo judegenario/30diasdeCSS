@@ -32,6 +32,9 @@
 
 <a href = "https://j.gifs.com/2xZ4rj.gif"><img src="https://j.gifs.com/2xZ4rj.gif"></a>
 
+## DIA 9 - Circle Image - Avatar
+![avatar](https://user-images.githubusercontent.com/53568231/90438088-db350000-e0a9-11ea-9d25-414894f9c9fa.png)
+
 
 
 
