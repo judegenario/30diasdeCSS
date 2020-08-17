@@ -1,1 +1,28 @@
+body{
+    background: #F2F2F2;
+}
 
+section{
+    text-align: center;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 15px;
+    box-shadow: 0 6px 12px #CCC;
+}
+
+.a{
+   background-image: url(eu.png) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.b{
+    background-image: url(ju.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
