@@ -1,1 +1,17 @@
+.zoom{
+    overflow: hidden;   /*ṕara não criar barras na hora do zoom*/
+}
 
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;  /*evitar problemas de compatibilidade*/
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*efeito de zoom ao passar o mouse*/
+.zoom:hover img{
+    -moz-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
