@@ -39,6 +39,11 @@
 
 <a href = "https://j.gifs.com/gZoLLY.gif"><img src="https://j.gifs.com/gZoLLY.gif"></a>
 
+## DIA 11 - Zoom Effect
+
+<a href = "https://j.gifs.com/1WZ6Po.gif"><img src="https://j.gifs.com/1WZ6Po.gif"></a>
+
+
 
 
 
