@@ -1,0 +1,51 @@
+body {
+    background: #993399 ;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    margin: 250px 300px;
+    text-align: center;
+    display: inline-block;
+    transition: .5s;
+}
+
+.text span {
+    background: #fff;
+    width: 120px;
+    height: 120px;
+    display: block;
+    line-height: 120px;
+    font-family: arial;
+    font-weight: bold;
+    color: #a0a0a0;
+    font-size: 40px;
+    float: left;
+    transition: .5s;
+}   
+
+/*Com esta pseudo-classe nth-child é possível selecionar 
+um determinado elemento dentro de uma árvore de elementos*/
+.text span:nth-child(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*A função CSS skewY () define uma transformação que inclina 
+um elemento na direção vertical no plano 2D.*/
+.text:hover span:nth-child(odd) {
+    transform: skewY(-15deg);
+    color: #b5b5b5;
+    box-shadow: 0 60px 20px rgba(0, 0, 0, .1);
+}
+
+.text:hover span:nth-child(even) {
+    transform: skewY(15deg);
+    color: #b5b5b5;
+    box-shadow: 0 60px 20px rgba(0, 0, 0, .1), inset 0px 0 30px rgba(0, 0, 0, .2);  
+}
+
+.text:hover {
+    transform: rotateX(35deg);
+}
