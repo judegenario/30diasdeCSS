@@ -43,9 +43,9 @@
 
 <a href = "https://j.gifs.com/1WZ6Po.gif"><img src="https://j.gifs.com/1WZ6Po.gif"></a>
 
+## DIA 12 - Text On Hover
 
-
-
+<a href = "https://j.gifs.com/NLwYPD.gif"><img src="https://j.gifs.com/NLwYPD.gif"></a>
 
 
 
