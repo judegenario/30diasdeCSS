@@ -47,6 +47,12 @@
 
 <a href = "https://j.gifs.com/NLwYPD.gif"><img src="https://j.gifs.com/NLwYPD.gif"></a>
 
+## DIA 13 - Tooltip Animado
+
+<a href = "https://j.gifs.com/vl0YA5.gif"><img src="https://j.gifs.com/vl0YA5.gif"></a>
+
+
+
 
 
 
