@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffe7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Archivo;
+}
+
+.tooltip{
+    background: #ff69b4;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    clip-path: circle(10% at 90% 20%);  /*A propriedade clip-path permite que se recorte partes de um elemento.*/
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/*Faz o cículo aparecer de forma completa quando passado o mouse*/
+.tooltip:hover {
+    clip-path: circle(100%);
+}
+
+/*opacity=0 faz o i sumir de dentro do texto*/
+.tooltip:hover span{
+    opacity: 0;
+}
+
+.icon{
+    font-weight: bold;
+    margin-right: 3%;
+    float: right;
+    transition: opacity 0.3s;
+}
