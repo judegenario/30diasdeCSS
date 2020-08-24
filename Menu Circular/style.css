@@ -1,0 +1,73 @@
+/*definições padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*cor de fundo da página*/
+body{
+    background-color: #808080;
+}
+
+/*O Elemento HTML de Navegação <nav> representa uma seção de uma página que aponta para
+ outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.*/
+nav{
+    margin: 150px;
+    width: 450px;
+    height: 450px;
+}
+
+#check{
+    display: none;
+}
+
+/*posição e config. da ig central*/
+#central{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 150px 150px;
+    z-index: 1;
+}
+
+#central img{
+    width: 100%;
+    transition: all .4s ease-in-out;    /*animação ease-in-out: início lento, meio rápido e término lento*/
+    border-radius: 50%;
+}
+
+/*posiciona cada ícone*/
+.link{
+    position: absolute;
+    margin: 195px 195px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all .1s ease-out;
+}
+
+/*efeitos de animação quando checado. Cada link translada em uma posição. O delay serve para parecer que está movendo um por vez*/
+#check:checked ~ a #link_01{
+    transform: translateY(-195px);
+}
+
+#check:checked ~ a #link_02{
+    transform: translateX(195px);
+    transition-delay:.1s;
+}
+
+#check:checked ~ a #link_03{
+    transform: translateY(195px);
+    transition-delay:.2s;
+}
+
+#check:checked ~ a #link_04{
+    transform: translateX(-195px);
+    transition-delay:.3s;
+}
+
+/*faz o icone central girar*/
+#check:checked ~ #central img{
+    transform: rotate(45deg);
+}
