@@ -59,4 +59,8 @@
 
 <a href = "https://j.gifs.com/k8vj75.gif"><img src="https://j.gifs.com/k8vj75.gif"></a>
 
+## DIA 16 - Animated Background (Gradient)
+
+<a href = "https://j.gifs.com/71Zwmr.gif"><img src="https://j.gifs.com/71Zwmr.gif"></a>
+
 
