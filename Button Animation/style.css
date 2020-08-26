@@ -63,7 +63,7 @@ header a:hover{
     animation-iteration-count: 1;
 }
 
-/*animação de "filp"*/
+/*animação de "flip"*/
 @keyframes btn3{
     0%{
         transform: rotatex(0);
