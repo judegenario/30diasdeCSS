@@ -67,3 +67,9 @@
 
 <a href = "https://j.gifs.com/ANZ2Vz.gif"><img src="https://j.gifs.com/ANZ2Vz.gif"></a>
 
+## DIA 18 - Text Rotate
+
+<a href = "https://j.gifs.com/1WZD0j.gif"><img src="https://j.gifs.com/1WZD0j.gif"></a>
+
+
+
