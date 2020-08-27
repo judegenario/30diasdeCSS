@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    font-family: Archivo;
+    background-color: black;
+}
+
+.conteudo{
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+}
+
+.conteudo span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.texto-1{
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 9px;
+    margin-bottom: 15px;
+    color: white;
+    position: relative;
+    background: black;
+    animation: texto .2s 1;
+
+}
+
+.texto-2{
+    font-size: 32px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #0be881;
+    animation: rotate 3s 1;
+    
+}
+
+/*animações*/
+@keyframes texto{
+    0%{
+        color: black;
+        letter-spacing: 0px;
+        margin-bottom: -50px;
+    }
+
+    25%{
+        color: rgba(0, 0, 0, 0.3);
+        letter-spacing: 10px;
+        margin-bottom: -50px;
+    }
+
+    50%{
+        color: rgba(0, 0, 0, 0.5);
+        letter-spacing: 20px;
+        margin-bottom: -50px;
+    }
+
+    85%{
+        color: rgba(0, 0, 0, 0.8);
+        letter-spacing: 30px;
+        margin-bottom: -20px;
+    }
+
+    100%{
+        color: black;
+        letter-spacing: 9px;
+        margin-bottom: 20px;
+    }
+}
+/*animação com rotate no segundo texto*/
+@keyframes rotate{
+    0%{
+        margin-top: 25px;
+        color: #0be881;
+    }
+
+    50%{
+        margin-top: 50px;
+        color: #0be881;
+        transform: rotatey(90deg);
+    }
+
+    85%{
+        margin-top: 75px;
+        color: #0be881;
+        transform: rotatey(120deg);
+    }
+
+    100%{
+        color: #0be881;
+        transform: rotatey(180deg);
+    }
+}
