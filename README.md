@@ -71,5 +71,7 @@
 
 <a href = "https://j.gifs.com/1WZD0j.gif"><img src="https://j.gifs.com/1WZD0j.gif"></a>
 
+## DIA 19 - Text Image
 
+![Text-image](https://user-images.githubusercontent.com/53568231/91517228-b3bd0f00-e8c3-11ea-81b2-53af8bce47dd.png)
 
