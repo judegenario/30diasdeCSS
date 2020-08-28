@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+}
+
+body{
+    height: 50vw;
+    display: flex;
+    font-family: Archivo;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Archivo;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    background-image: url(https://images.unsplash.com/photo-1532153955177-f59af40d6472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    color: transparent;
+    -webkit-background-clip: text;
+}
