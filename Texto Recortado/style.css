@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+    background: #993399;
+}
+
+h1{
+    font-family: Archivo;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: transparent;
+    background-color: #666666;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 0px 1px 1px #ffffff;
+    transform: rotate(-20deg) skew(20deg);
+    transition: all 1s;
+}
+
+h1::before{
+    content: attr(nome);
+    color: white;
+    position: absolute;
+    transition: all 1s;
+}
+
+h1:hover::before{
+    transform: translate(0, 40px);
+    text-shadow: 0px 3px 3px #414141;
+}
