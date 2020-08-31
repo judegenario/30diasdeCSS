@@ -79,4 +79,9 @@
 
 <a href = "https://j.gifs.com/ZYMR5v.gif"><img src="https://j.gifs.com/ZYMR5v.gif"></a>
 
+## DIA 21 - Text Fill
+
+<a href = "https://j.gifs.com/nxy1v5.gif"><img src="https://j.gifs.com/nxy1v5.gif"></a>
+
+
  
