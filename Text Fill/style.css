@@ -1,0 +1,28 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    color: #cccccc;
+}
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    color: blue;
+    width: 0%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+h1:hover::before{
+    width: 100%;
+}
