@@ -83,5 +83,9 @@
 
 <a href = "https://j.gifs.com/nxy1v5.gif"><img src="https://j.gifs.com/nxy1v5.gif"></a>
 
+## DIA 21 - Text Stroke Fill
+
+<a href = "https://j.gifs.com/lxw1ZM.gif"><img src="https://j.gifs.com/lxw1ZM.gif"></a>
+
 
  
