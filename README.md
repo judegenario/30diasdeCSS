@@ -94,3 +94,9 @@
 ## DIA 24 - Checkbox Animado
 
 <a href = "https://j.gifs.com/6X13wR.gif"><img src="https://j.gifs.com/6X13wR.gif"></a>
+
+## DIA 25 - Reveal Block
+
+<a href = "https://j.gifs.com/5QZm0K.gif"><img src="https://j.gifs.com/5QZm0K.gif"></a>
+
+
