@@ -1,0 +1,77 @@
+/*definições padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilização do body*/
+body{
+    background: #8d3cad;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*estilização do texto*/
+.text{
+    color: #fff;
+    font-family: "Archivo";
+    font-size: 5rem;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 2rem 1rem;
+    opacity: 0; /*não mostra o texto inicialmente*/
+    animation: fadeInText 0s 1.1s both; 
+}
+
+.text-block{
+    position: relative;
+    overflow: hidden;   /*esconde o bloco*/
+}
+
+/*criando o bloco com o pseudo elemento after*/
+.text-block:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #dab71b;
+    transform: translateX(-100%);
+    animation: enLargeBlock .5s .6s both, revealBlock 1.5s 1.1s both infinite;
+}
+
+/*animação para mostrar o texto após o bloco*/
+@keyframes fadeInText{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*animação para revelar o bloco (mostrar o bloco movendo)*/
+@keyframes revealBlock{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+/*animação para fazer o efeito de crescimento do bloco*/
+@keyframes enLargeBlock{
+    from{
+        width: 0%;  /*tamanho 0 no início*/
+    }
+    to{
+        width: 100%;
+    }
+}
