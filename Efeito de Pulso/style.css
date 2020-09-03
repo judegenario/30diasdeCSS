@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pulse{
+    height: 100px;
+    width: 100px;
+    background: rgba(167, 49, 108, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Archivo;
+    animation: pulse 1.5s linear infinite;
+}
+/*realiza a animação de pulso (círculo aumentando com transparência)*/
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(167, 49, 108, 1);
+    }
+    100%{
+        box-shadow: 0 0 0 50px rgba(167, 49, 108, 0);
+    }
+}
