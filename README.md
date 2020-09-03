@@ -87,5 +87,7 @@
 
 <a href = "https://j.gifs.com/lxw1ZM.gif"><img src="https://j.gifs.com/lxw1ZM.gif"></a>
 
+## DIA 23 - Efeito de Pulso
 
+<a href = "https://j.gifs.com/WLJY9x.gif"><img src="https://j.gifs.com/WLJY9x.gif"></a>
  
