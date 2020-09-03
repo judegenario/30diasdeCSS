@@ -91,3 +91,6 @@
 
 <a href = "https://j.gifs.com/WLJY9x.gif"><img src="https://j.gifs.com/WLJY9x.gif"></a>
  
+## DIA 24 - Checkbox Animado
+
+<a href = "https://j.gifs.com/6X13wR.gif"><img src="https://j.gifs.com/6X13wR.gif"></a>
