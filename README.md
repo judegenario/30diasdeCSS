@@ -99,4 +99,8 @@
 
 <a href = "https://j.gifs.com/5QZm0K.gif"><img src="https://j.gifs.com/5QZm0K.gif"></a>
 
+## DIA 26 - Pointer
+
+<a href = "https://j.gifs.com/k8vGmv.gif"><img src="https://j.gifs.com/k8vGmv.gif"></a>
+
 
