@@ -103,4 +103,7 @@
 
 <a href = "https://j.gifs.com/k8vGmv.gif"><img src="https://j.gifs.com/k8vGmv.gif"></a>
 
+## DIA 27 - Texto luminoso
+
+<a href = "https://j.gifs.com/71Zo5B.gif"><img src="https://j.gifs.com/71Zo5B.gif"></a>
 
