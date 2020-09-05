@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #50c878;
+}
+
+h1{
+    color: white;
+    font-family: Archivo;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
