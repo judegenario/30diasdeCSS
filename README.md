@@ -111,3 +111,7 @@
 
 <a href = "https://j.gifs.com/vl1QKn.gif"><img src="https://j.gifs.com/vl1QKn.gif"></a>
 
+## DIA 29 - Border Effect
+
+![Border Effect](https://user-images.githubusercontent.com/53568231/92537387-60778480-f212-11ea-9102-78fd936623a7.png)
+
