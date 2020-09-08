@@ -1,0 +1,15 @@
+h1{
+    border-style: dotted;/*define o estilo da borda*/
+    border-width: 5px;  /*define a espessura da borda*/
+    border-color: royalblue;
+}
+
+h2{
+    border-style: double;
+    border-width: thick;
+    border-color: red;
+}
+
+h3{
+    border: 1px solid green;
+}
